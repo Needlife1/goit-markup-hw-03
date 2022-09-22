@@ -65,6 +65,9 @@ body {
 
 /* -----------Header----------- */
 
+.container {
+    display: flex;
+}
 
 .header-logo {
     font-family: 'Raleway';
@@ -156,6 +159,7 @@ body {
 /* --------------Hero--------------- */
 .hero {
     background-color: var(--hero-footer-color);
+    text-align: center;
 }
 
 .hero-titel {
@@ -163,11 +167,10 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-white-color);
-
+    text-align: center;
 }
 
 .hero-button {
@@ -175,12 +178,12 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+
 }
 
 .hero-button:hover,
@@ -188,9 +191,8 @@ body {
     background-color: var(--background-hero-button);
 }
 
-.hero-button {
-    cursor: pointer;
-}
+
+
 
 /* ------------Benefits------------ */
 
