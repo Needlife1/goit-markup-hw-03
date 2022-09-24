@@ -56,18 +56,26 @@ body {
 }
 
 .container {
-    width: 1200;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    outline: 2px solid red;
 }
+
+
 
 /* -----------Header----------- */
 
 .container {
+    width: 1200;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
+    align-items: center;
+    justify-content: spaes-evenly;
+
 }
+
+
 
 .header-logo {
     font-family: 'Raleway';
@@ -76,8 +84,8 @@ body {
     line-height: 0.83;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    margin-right: 93px;
-    padding-top: 24px;
+
+
 }
 
 
@@ -96,9 +104,7 @@ body {
 }
 
 .header-link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: inline;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -123,12 +129,10 @@ body {
 
 .list {
     display: flex;
-    padding-top: 32px;
+
 }
 
-.list-itam:not(:last-child) {
-    margin-right: 50px;
-}
+
 
 .header-mail,
 .header-tel {
@@ -196,12 +200,8 @@ body {
 
 /* ------------Benefits------------ */
 
-.benefits-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-
+.benefits-list {
+    justify-content: center;
 }
 
 .visually-hidden {
@@ -224,8 +224,14 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: var(--primary-text-color);
+    margin-top: 94px;
+    margin-bottom: 10px;
+
+}
+
+.benefits-titel.header-itam:not(:last-child) {
+    margin-right: 30px;
 }
 
 .benefits-text {
@@ -234,7 +240,11 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
+    width: 270px;
+    margin-bottom: 118px;
 }
+
+
 
 /* ---------------Service---------- */
 .service-titel {
@@ -243,7 +253,7 @@ body {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
+    margin-bottom: 50px;
     color: #212121;
 }
 
