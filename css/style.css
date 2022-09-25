@@ -11,6 +11,7 @@
     --secondary-white-color: #F5F4FA;
 }
 
+
 body {
     background-color: var(--primary-white-color);
     color: var(--text-color);
@@ -26,6 +27,7 @@ body {
 .link {
     text-decoration: none;
 }
+
 
 .container {
     width: 1200px;
@@ -124,6 +126,7 @@ body {
 /* --------------Hero--------------- */
 .hero {
     background-color: var(--hero-footer-color);
+    padding: 200px 452px 280px 452px;
 }
 
 .hero-titel {
@@ -135,6 +138,8 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-white-color);
+    margin-bottom: 30px;
+    max-width: 696px;
 }
 
 .hero-button {
@@ -148,6 +153,9 @@ body {
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    margin: 0 auto;
+
+
 }
 
 .hero-button:hover,
@@ -161,7 +169,10 @@ body {
 
 /* ------------Benefits------------ */
 
-
+.benefits {
+    padding-top: 54px;
+    padding-bottom: 118px;
+}
 
 .visually-hidden {
     position: absolute;
@@ -183,7 +194,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    margin-bottom: 10px;
     color: var(--primary-text-color);
 }
 
@@ -196,19 +207,29 @@ body {
 }
 
 /* ---------------Service---------- */
+
+.service {
+
+    padding-bottom: 94px;
+}
+
 .service-titel {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
+    margin-bottom: 50px;
     color: #212121;
 }
+
+
 
 /* -------------Team----------- */
 .team {
     background-color: var(--secondary-white-color);
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .team-titel {
@@ -218,8 +239,12 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 50px;
 }
 
+.team-foto {
+    margin-bottom: 30px;
+}
 
 .team-name {
     font-weight: 500;
@@ -229,6 +254,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 
 
@@ -239,13 +265,16 @@ body {
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--text-color)
+    color: var(--text-color);
+    padding: 30px;
+
 }
 
 /* -------------Footer----------- */
 
 .footer {
     background-color: var(--hero-footer-color);
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -256,6 +285,8 @@ body {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    margin-top: 60;
+    margin-bottom: 20;
 }
 
 .logo-footer {
@@ -269,12 +300,18 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
+    margin-bottom: 9px;
 }
 
 .address:focus,
 .address:hover {
     color: var(--accent-color);
 }
+
+.footer-mail {
+    margin-bottom: 9px;
+}
+
 
 
 .footer-mail,
@@ -297,6 +334,16 @@ body {
 }
 
 /*----------!!!!!Portfolio!!!!------------ */
+
+.portfolio-section {
+    padding-bottom: 94px;
+}
+
+.main-buttton {
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
 .button {
     font-family: inherit;
     font-style: normal;
@@ -325,7 +372,9 @@ body {
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -333,5 +382,7 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--text-color)
+    color: var(--text-color);
+    margin-bottom: 20px;
+    margin-top: 4px;
 }
